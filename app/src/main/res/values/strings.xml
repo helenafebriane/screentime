@@ -1,0 +1,227 @@
+<resources>
+
+    <string name="app_name">Screentime</string>
+    <string name="app_lines">Mengontrol Pemakaian Aplikasi</string>
+    <string name="title_activity_installed_apps_list">Aktivitas Daftar Aplikasi Terinstal</string>
+    <string name="serviceDetectAppLaunch_description">Layanan ini mendeteksi peluncuran appAddUsageLimit.</string>
+    <string name="navigation_drawer_open">Buka navigasi drawer</string>
+    <string name="navigation_drawer_close">Tutup navigasi drawer</string>
+
+    <string name="action_settings">Pengaturan</string>
+    <string name="title_activity_main">Screentime</string>
+    <string name="title_activity_restrict_usage">Batas Pemakaian Aplikasi</string>
+    <string name="title_activity_apps_usage">Statistik Pemakaian Aplikasi</string>
+    <string name="title_activity_apps_usage_info_list">List Informasi Pemakaian Aplikasi</string>
+    <string name="title_activity_apps_usage_list">List Pemakaian Aplikasi</string>
+    <string name="title_activity_apps_usage_restrict">Aplikasi dengan Batas Pemakaian</string>
+
+    <string name="selectChoice">Pilih Batasan</string>
+    <string name="restrictByUsage">Batasi Berdasarkan Peluncuran</string>
+    <string name="restrictByTime">Batasi Berdasarkan Waktu Pemakaian</string>
+    <string name="restrictBySpecificTime">Batasi Selama Interval Waktu Tertentu</string>
+
+    <string name="title_restrict_time">Batasan Akses Aplikasi Selama Waktu Tertentu</string>
+    <string name="title_access_time_allowed">Waktu Akses yang Diizinkan</string>
+    <string name="title_launches_allowed">Peluncuran yang Diizinkan</string>
+
+    <string name="minute">Menit</string>
+    <string name="hour">Jam</string>
+    <string name="per_hour">Per Jam :</string>
+    <string name="per_hour_in_mins">Per Jam (dalam menit) :</string>
+    <string name="per_day">Per Hari :</string>
+
+    <string name="last_used">Terakhir Digunakan : </string>
+    <string name="usage_hour">Waktu Pemakaian Jam Ini : </string>
+    <string name="usage_day">Waktu Pemakaian Hari Ini : </string>
+    <string name="launch_hour">Diluncurkan Jam Ini : </string>
+    <string name="launch_day">Diluncurkan Hari Ini : </string>
+
+    <string name="button_process">Proses</string>
+    <string name="button_back">Kembali</string>
+    <string name="button_set">Atur Slot</string>
+    <string name="button_add">Tambah Slot</string>
+    <string name="button_set_time_limit">Atur Batas Waktu</string>
+    <string name="button_set_launch_limit">Atur Batas Peluncuran</string>
+    <string name="button_cancel">Batal</string>
+    <string name="button_select">Pilih</string>
+
+    <string name="AppsSharedPreferences">Aplikasi Pengguna</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Pengaturan</string>
+
+    <string name="autostart_permission_text">
+        <b>PENTING: </b> Aplikasi memerlukan izin "<b>AUTOSTART</b>" untuk bekerja dengan baik pada beberapa perangkat seperti <i>Xiaomi</i>.
+        Untuk memberikan izin ini, buka halaman <b>Pengaturan</b> pada aplikasi ini atau buka pengaturan secara manual:
+        <b>Pengaturan</b> > <b>Izin</b> > <b>Autostart</b> </string>
+    <string name="autostart_heading_text">Berikan Izin <b>AUTOSTART</b></string>
+
+    <!-- About -->
+    <string name="title_activity_about">Tentang Aplikasi</string>
+    <string name="title_activity_about_creator">Dibuat Oleh:</string>
+    <string name="creator">Helena Antoinette Febriane</string>
+    <string name="npm">(53418101)</string>
+    <string name="title_activity_about_app">Aplikasi ini dibuat guna memenuhi syarat Sarjana Muda</string>
+    <!-- About -->
+
+    <!-- Help -->
+    <string name="help_apps_usage_text">
+        <b>Statistik Pemakaian Aplikasi</b> memberikan Informasi Pemakaian tentang <i>Aplikasi yang diinstal Pengguna.</i>\n\n
+        Informasi Pemakaian meliputi:\n\n
+        1. Waktu Terakhir Digunakan\n
+        2. Jam Ini Diluncurkan\n
+        3. Hari Ini Diluncurkan\n
+        4. Waktu Pemakaian Jam Ini\n
+        5. Waktu Pemakaian Hari Ini\n\n
+        Cukup klik pada aplikasi untuk mendapatkan Informasi Pemakaian.\n\n
+        CATATAN 1: Meluncurkan aplikasi apapun meningkatkan <b>Jumlah Peluncuran</b> hanya jika digunakan selama lebih dari 2 detik (perkiraan).
+                   Sama halnya dengan <b>Waktu Pemakaian</b> dan <b>Terakhir Digunakan</b>\n\n
+        CATATAN 2: Informasi Pemakaian Per Jam diperbaharui setiap awal jam (seperti jam 08.00, 12.00, dan seterusnya)\n\n
+        CATATAN 3: Informasi Pemakaian Harian diperbaharui setiap jam 00.00.
+    </string>
+    <string name="help_addlimit">Tambahkan Batas</string>
+    <string name="addlimit_text">
+        Klik Tambah (Ikon Plus) untuk menambahkan Pembatasan Pemakaian pada aplikasi.<br/><br/>\n\n
+        Tiga jenis Pembatasan yang dapat ditambahkan:<br/><br/>\n\n
+        1. Pembatasan jumlah Peluncuran yang Diizinkan (Per Jam dan Per Hari)<br/><br/>\n\n
+        2. Pembatasan Waktu Pemakaian yang Diizinkan (Per Jam dan Per Hari)<br/><br/>\n\n
+        3. Pembatasan selama Interval Waktu Tertentu (Akses aplikasi tidak diizinkan selama Interval Waktu yang ditentukan)<br/><br/>\n\n
+        Pembatasan yang ada pada aplikasi juga dapat dilihat di sini. Aplikasi dikelompokkan berdasarkan tipe Pembatasan.<br/><br/>\n\n
+        CATATAN 1: Aplikasi dapat memiliki satu atau lebih dari Tiga Pembatasan.<br/><br/>\n\n
+        CATATAN 2: Mengatur (Peluncuran Per Hari / Peluncuran Per Jam / Waktu Per Hari / Waktu Per Jam) menjadi Nol (0) diatur sebagai "Tidak Ada Batas".
+    </string>
+    <string name="help_delete">Hapus Pembatasan Pemakaian</string>
+    <string name="delete_text">
+        Tekan lama Aplikasi di Halaman Utama "Aplikasi Dengan Pembatasan Pemakaian" untuk menghapus batas.<br/><br/>\n\n
+        CATATAN: Anda hanya dapat menghapus batas pada Aplikasi jika Anda belum mencapai batas akses harian/per jam
+        atau waktu saat ini tidak terletak di antara interval waktu Akses Pembatasan!
+    </string>
+    <string name="help_update">Perbaharui Pembatasan Pemakaian</string>
+    <string name="update_text">
+        Anda dapat Memperbaharui Batas Pemakaian pada Aplikasi apapun dengan terlebih dahulu Menghapus Batas (seperti yang sudah dijelaskan di atas)
+        dan kemudian Menambahkan Batas Baru di Aplikasi yang sama.<br/><br/>\n\n
+        Jelas, tak perlu dikatakan bahwa Kriteria Penghapusan Biasa masih berlaku, yaitu Anda TIDAK dapat menghapus Batas Pemakaian pada Aplikasi apa pun
+        selama Anda Tidak Diizinkan untuk mengaksesnya.
+    </string>
+    <string name="help_specific_time_limit_info">Informasi Pembatasan Batas Waktu Tertentu</string>
+    <string name="specific_time_limit_info_text">
+        Berikut adalah implikasi dari Pembatasan Batas Waktu Tertentu:<br/><br/>\n\n
+        1. Menampilkan <b>Peringatan</b> jika Waktu Saat Ini berada di antara berbagai Interval Waktu yang Ditentukan.<br/><br/>\n\n
+        2. Dalam hal Waktu Awal dan Akhir sama (seperti saat Interval Waktu diatur sebagai 08.00 hingga 08.00 atau 10.00 hingga 10.00 dan seterusnya),
+           pengguna TIDAK DIPERBOLEHKAN untuk mengakses Aplikasi Terkait.<br/><br/>\n\n
+        3. Juga, Jika Waktu Awal terletak setelah Waktu Akhir (seperti saat Interval Waktu disetel sebagai 15:00 hingga 14:00),
+           pengguna DIPERBOLEHKAN untuk mengakses Aplikasi Terkait dalam Format Waktu Terbalik (yaitu antara pukul 14:00 hingga 15:00).<br/><br/>\n\n
+        Contoh Lain : Ketika Interval Waktu ditetapkan sebagai 11:30 hingga 02:30, pengguna DIPERBOLEHKAN untuk mengakses Aplikasi Terkait antara pukul 02:30 sampai 11:30
+    </string>
+    <string name="help_limit">Apa Yang Terjadi Ketika Beberapa Batas Diatur?</string>
+    <string name="limit_text">
+        Aplikasi akan menampilkan <b>PERINGATAN</b> dari Kriteria Pembatasan terpenuhi.<br/><br/>\n\n
+        Aplikasi Terkait  akan menampilkan <b>PERINGATAN</b> ketika:<br/><br/>\n\n
+        1. Batas Peluncuran tercapai bahkan ketika Anda masih memiliki Waktu Pemakaian yang tersisa atau sebaliknya
+           yaitu Batas Waktu Pemakaian tercapai tetapi Anda masih memiliki Batas Peluncuran yang tersisa.<br/><br/>\n\n
+        2. Waktu Saat Ini terletak pada Interval di mana Anda tidak diizinkan untuk mengakses Aplikasi meskipun
+           Anda masih memiliki Waktu Pemakaian atau Batas Peluncuran yang tersisa.<br/><br/>\n\n
+        3. Batas Waktu/Peluncuran SETIAP JAM tercapai meskipun Batas Waktu/Peluncuran SETIAP HARI tidak tercapai.<br/><br/>\n\n
+           Contoh: Jika Batas Peluncuran Per Jam adalah 5 Peluncuran dan Batas Peluncuran Harian adalah 20 Peluncuran,
+           Anda tidak akan diizinkan untuk mengakses Aplikasi ke-6 kalinya dalam Jam yang sama,
+           meskipun Anda dapat mengaksesnya pada jam berikutnya.<br/><br/>\n\n
+        4. Batas Waktu/Peluncuran HARIAN tercapai meskipun Batas Waktu/Peluncuran PER JAM tidak tercapai.<br/><br/>\n\n
+           Contoh: Jika Batas Penggunaan Per Jam adalah 20 menit dan Batas Penggunaan Harian adalah 2 Jam, Anda tidak akan diizinkan untuk mengakses Aplikasi
+           setelah menggunakannya selama 2 Jam pada hari itu meskipun Anda hanya menggunakannya, katakanlah 10 menit (kurang dari 20 menit) dalam Jam tertentu.
+    </string>
+    <string name="notif_text">
+        Anda dapat memilih untuk mendapatkan Pemberitahuan setiap hari tentang Aplikasi yang Paling Banyak Diluncurkan dan Paling Banyak Digunakan.<br/>\n
+        Cukup buka <b> Pengaturan </b> > <b> Pemberitahuan</b>.
+    </string>
+    <string name="help_disable">Nonaktif Screentime</string>
+    <string name="disable_text">
+        Sangat ingin mengakses Aplikasi tetapi sudah mencapai Batas Pemakaian?<br/><br/>\n\n
+        Jangan Khawatir! Anda dapat menonaktifkan aplikasi selama 10 menit.<br/><br/>\n\n
+        Tapi Waspadalah! Anda hanya dapat melakukannya <b>Sekali Per Hari</b>!!
+    </string>
+    <string name="help_share">Bagikan Aplikasi</string>
+    <string name="share_text">Bagikan Aplikasi melalui ShareIt!.<br/><br/>\n\n</string>
+    <!-- Help -->
+
+    <!-- Settings -->
+    <string name="disable_time">Selama 10 Menit</string>
+    <string name="setting_notification">Pemberitahuan Harian</string>
+    <string name="notification_text">Aplikasi yang sering digunakan and diluncurkan</string>
+    <string name="setting_autostart">Untuk Perangkat <i>Xiaomi</i></string>
+    <!-- Settings -->
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example Geneactivity_settingsings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">Helena</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Examactivity_settingsings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Examactivity_settingsings for Notifications -->
+    <string name="pref_header_notifications">Pemberitahuan</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_help">Bantuan</string>
+
+</resources>

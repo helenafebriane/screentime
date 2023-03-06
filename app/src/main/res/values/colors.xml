@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#557597</color>
+    <color name="colorPrimaryDark">#213e70</color>
+    <color name="colorAccent">#5c93c4</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="ic_launcher_background">#384B60</color>
+
+    <color name="colorPrimaryOLD">#1E90FF</color>
+    <color name="colorPrimaryDarkOLD">#303F9F</color>
+    <color name="colorAccentOLD">#1E90FF</color>
+    <color name="colorWhiteOLD">#FFFFFF</color>
+
+    <color name="color1">#213e70</color>
+    <color name="color2">#81aec6</color>
+    <color name="color3">#cae2e1</color>
+    <color name="color4">#f7f6f3</color>
+
+    <color name="color10">#213e70</color>
+    <color name="color20">#5c93c4</color>
+    <color name="color30">#81aec6</color>
+    <color name="color40">#f7f6f3</color>
+
+    <color name="color100">#133664</color>
+    <color name="color200">#017eb1</color>
+    <color name="color300">#16c1de</color>
+    <color name="color400">#f7f6f3</color>
+
+    <color name="color1000">#1c8364</color>
+    <color name="color2000">#35c361</color>
+    <color name="color3000">#96ed4c</color>
+    <color name="color4000">#f7f6f3</color>
+
+    <color name="color10000">#384b60</color>
+    <color name="color20000">#5c93c4</color>
+    <color name="color30000">#98B7DA</color>
+    <color name="color40000">#f8f7f2</color>
+
+</resources>
